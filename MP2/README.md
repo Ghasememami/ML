@@ -2,6 +2,7 @@
 # 📗 Mini project 2
 These files are the solution of the second home work of the Machine Learning course.
 
+## Question 1 
 
 Classifying Points in a Triangle
 This code implements a simple neural network to classify points within a triangle. The network utilizes a single neuron with different activation functions (ReLU and Sigmoid) to explore their impact on the classification task.
