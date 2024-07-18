@@ -1,6 +1,6 @@
 # 📕 Mini project 1
 
-
+This mini project consist of 3 questions that will describe in follow:
 
 ## Question 1
 ### Introduction
