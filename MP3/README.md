@@ -2,6 +2,9 @@
 
 # Question 1
 
+The IRIS dataset could be found in this 
+### [link](https://www.kaggle.com/datasets/budincsevity/szeged-weather/data)
+
 This project delves into Support Vector Machine (SVM) algorithm exploration on the Iris dataset. It investigates the effectiveness of dimensionality reduction, explores linear and polynomial kernels (degrees 1-10), and compares results using metrics and visualizations. The project offers two approaches:
 
 - Scikit-learn Integration: Leverages scikit-learn for SVM classification, dimensionality reduction (method to be specified), and visualization of decision boundaries and principal feature separation in GIF format (degrees 1-10).
@@ -13,11 +16,14 @@ This project provides insights into SVM behavior with different kernels and dime
 ## Result :
 the Scratch Decision Boundries: 
 ![alt text](scratch_decision_boundries.gif)
-The IRIS dataset could be found in this 
-### [link](https://www.kaggle.com/datasets/budincsevity/szeged-weather/data)
+
 
 
 # Question 3
+
+The dataset link could be found in link below
+### [Dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
+
 ## Fraud Detection Model Exploration with Deep Learning
 This project delves into the implementation and analysis of a deep learning model for fraud detection. It explores the challenges of imbalanced datasets and concept drift, which are common hurdles in this domain.
 
@@ -38,8 +44,7 @@ Note: When hyperparameters are not specified in the paper, we will make informed
 Confusion Matrix
 ![alt text](2_9.png)
 
-The dataset link could be found in link below
-### [Dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
+
 
 
 
