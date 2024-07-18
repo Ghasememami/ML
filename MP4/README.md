@@ -14,6 +14,10 @@ This project offers a valuable resource for anyone interested in exploring reinf
 
 Key Features:
 
-
+-Implementation of DQN and DDQN algorithms tailored for the Lunar Lander environment.
+-Comparative analysis of batch size impact on RL performance.
+-2D plot video visualization of agent behavior.
+-Evaluation using comprehensive performance metrics.
+-Clear setup instructions for running the project.
 
 
