@@ -19,7 +19,9 @@ Description
 Create a block diagram illustrating the process of training and evaluating a linear classifier model. Explain the various components of the block diagram. Indicate which part of the block diagram changes when transitioning from binary classification to multi-class classification.
 
 ### Diagram
-![alt text](git1.jpg)
+<div style="text-align: center">
+  ![alt text](git1.jpg)
+</div>
 
 ### Explanation
 1- Data Collection: Collect and preprocess the data.
