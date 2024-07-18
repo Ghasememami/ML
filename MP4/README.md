@@ -20,5 +20,4 @@ This project offers a valuable resource for anyone interested in exploring reinf
 - Evaluation using comprehensive performance metrics.
 - Clear setup instructions for running the project.
 
-[![Video Thumbnail](path/to/thumbnail.jpg)](path/to/your/video.mp4)
-<img src="path/to/image1.jpg" width="200" height="150" alt="Image 1 description">
+<video controls src="250.mp4" title="Title"></video>
