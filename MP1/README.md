@@ -93,7 +93,7 @@ This question aims to provide a comprehensive guide on using the CWRU Bearing da
 
 
 You can find used dataset for question number 2 in link below.
-### [Dataset 1](https://engineering.case.edu/bearingdatacenter/download-data-file)
+### [Dataset](https://engineering.case.edu/bearingdatacenter/download-data-file)
 
 
 ## Question 3
@@ -138,7 +138,7 @@ RLS is beneficial for handling streaming data or situations with dynamically cha
 This question provides an overview of analyzing the Weather in Szeged 2006 dataset, exploring the relationship between temperature and humidity, and building regression models. For detailed implementation and results, refer to the corresponding code and notebooks.
 
 You can find used dataset for question number 3 in link below.
-### [Dataset 2](https://www.kaggle.com/datasets/budincsevity/szeged-weather/data)
+### [Dataset](https://www.kaggle.com/datasets/budincsevity/szeged-weather/data)
 
 
 
