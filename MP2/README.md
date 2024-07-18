@@ -120,6 +120,6 @@ This project offers a clear guide to building and evaluating a Naive Bayes class
 
 The Dataset could be found in link below
 
-### [Dataset]([[https://engineering.case.edu/bearingdatacenter/download-data-file](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.fetch_covtype.html#sklearn.datasets.fetch_covtype](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset)))
+### [Dataset](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset)
 
 
