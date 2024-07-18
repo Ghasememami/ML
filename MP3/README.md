@@ -16,13 +16,27 @@ the Scratch Decision Boundries:
 The IRIS dataset could be found in this 
 ### [link](https://www.kaggle.com/datasets/budincsevity/szeged-weather/data)
 
-# Question 2
-
-
-
 
 # Question 3
+## Fraud Detection Model Exploration with Deep Learning
+This project delves into the implementation and analysis of a deep learning model for fraud detection. It explores the challenges of imbalanced datasets and concept drift, which are common hurdles in this domain.
 
+The project investigates the approach presented in a research paper (citation required). This approach tackles these challenges by:
+
+- Utilizing cost-sensitive learning to prioritize accurate detection of fraudulent transactions.
+- Employing ensemble learning to combine multiple models for enhanced robustness and versatility.
+- Implementing feature selection to reduce data dimensionality and improve model efficiency.
+
+We will build and train the proposed network architecture using a chosen programming language and deep learning framework. The training process will incorporate early stopping to prevent overfitting and ensure optimal model performance.
+
+We will then evaluate the model's effectiveness on unseen data, employing metrics like accuracy, precision, recall, and F1-score. Additionally, we will explore the limitations of accuracy as a sole metric for imbalanced datasets and investigate the trade-off between accuracy and recall using oversampling techniques.
+
+Furthermore, the project will analyze the model's performance when trained on imbalanced data with noise, comparing it to the performance with noise removal. This will provide insights into the impact of noise on the model's ability to detect fraudulent transactions.
+
+Note: When hyperparameters are not specified in the paper, we will make informed choices based on best practices. The project aims to gain practical experience with the model rather than replicate the exact paper results.
+## Result:
+Confusion Matrix
+![alt text](2_9.png)
 
 The dataset link could be found in link below
 ### [Dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
