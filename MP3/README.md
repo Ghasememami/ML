@@ -4,7 +4,7 @@
 
 
 The IRIS dataset could be found in this 
-### [link](https://www.kaggle.com/datasets/budincsevity/szeged-weather/data))
+### [link](https://www.kaggle.com/datasets/budincsevity/szeged-weather/data)
 
 # Question 2
 
