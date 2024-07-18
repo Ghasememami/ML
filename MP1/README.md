@@ -51,7 +51,7 @@ Visualize the decision boundaries of the trained model along with the dataset sa
 ## Question 2
 This questiom explores fault detection using the CWRU Bearing dataset. The CWRU Bearing dataset is widely used for diagnosing faults in bearings using machine learning techniques. This README provides an overview of the dataset, steps to preprocess the data, extract features, and build machine learning models for fault detection.
 
-Dataset Overview
+### Dataset Overview
 The CWRU Bearing dataset consists of vibration signals from bearings under different conditions:
 
 Normal Condition (Normal_X): Data from bearings operating under normal conditions.
@@ -59,43 +59,35 @@ Fault Condition (IR007_X): Data from bearings with inner race faults (IR) in sta
 Objectives
 The main objective of this dataset is to classify the health status of bearings based on vibration signals. This helps in early detection of faults and preventive maintenance.
 
-Steps to Form the Dataset
-Step 1: Data Acquisition
+#### Steps to Form the Dataset
+#### Step 1: Data Acquisition
 Download data from the respective pages:
 Normal Condition Data
 Fault Condition Data
-Step 2: Data Preprocessing
+#### Step 2: Data Preprocessing
 Separate M samples of length N from each class (M >= 100, N >= 200).
 Formulate an M × N matrix for both classes along with their respective labels.
-Step 3: Feature Extraction
+#### Step 3: Feature Extraction
 Extract at least 8 features from the dataset using the formulas mentioned in Table 1:
 
-
-| Feature            | Formula                                                   |
-|--------------------|-----------------------------------------------------------|
-| Standard Deviation | \( x_{std} = \sqrt{\frac{\sum_{i=1}^N (x_i - \bar{x})^2}{N}} \) |
-| Peak               | \( x_p = \max |x_i| \)                                    |
-| Skewness           | \( x_{ske} = \frac{1}{N} \sum_{i=1}^N \frac{(x_i - \bar{x})^3}{x_{std}^3} \) |
-| Kurtosis           | \( x_{kur} = \frac{1}{N} \sum_{i=1}^N \frac{(x_i - \bar{x})^4}{x_{std}^4} \) |
-| Mean               | \( \text{Mean} = \frac{1}{n} \sum_{i=1}^n x_i \)           |
-| Absolute Mean      | \( \text{Abs Mean} = \frac{1}{n} \sum_{i=1}^n |x_i| \)     |
-| Root Mean Square   | \( \text{RMS} = \sqrt{\frac{1}{n} \sum_{i=1}^n x_i^2} \)   |
-| Peak to Peak       | \(\text{Maximum} - \text{Minimum}\)                       |
+![image](https://github.com/user-attachments/assets/6c083dbd-4896-4b60-9f85-6ff3698e94f8)
 
 
-Step 4: Importance of Feature Extraction
+
+
+#### Step 4: Importance of Feature Extraction
 Feature extraction reduces dimensionality and improves model accuracy by capturing essential information from raw data.
 
-Step 5: Data Mixing and Splitting
+#### Step 5: Data Mixing and Splitting
 Mix data if possible and divide it into reasonable training and evaluation ratios.
 
-Step 6: Data Normalization
+#### Step 6: Data Normalization
 Normalize data to ensure consistent scaling of features. Choose one of the following normalization methods:
 
 Min-Max Scaling: Scales data to a range of 0 to 1.
 Standardization: Scales data to have a mean of 0 and variance of 1.
-Conclusion
-This repository aims to provide a comprehensive guide on using the CWRU Bearing dataset for fault detection. By following the steps outlined above, you can preprocess the dataset, extract relevant features, and normalize data for training machine learning models effectively.
+### Conclusion
+This question aims to provide a comprehensive guide on using the CWRU Bearing dataset for fault detection. By following the steps outlined above, you can preprocess the dataset, extract relevant features, and normalize data for training machine learning models effectively.
 
 
 
@@ -104,7 +96,45 @@ You can find used dataset for question number 2 in link below.
 
 
 ## Question 3
+This question aims to analyze the relationship between temperature and humidity using the Weather in Szeged 2006 dataset. We will perform exploratory data analysis (EDA) and build regression models to estimate temperature based on humidity.
 
+### Dataset Overview
+Dataset Name: Weather in Szeged 2006
+Features: Temperature (Temperature (C)), Humidity (Humidity)
+Objective: Analyze the relationship between temperature and humidity, and build regression models to predict temperature.
+Exploratory Data Analysis (EDA)
+Heatmap of Correlation
+
+The heatmap shows the correlation between Temperature and Humidity. It helps us understand the linear relationship between these variables.
+
+Scatter Plot: Temperature vs Humidity
+
+The scatter plot visualizes how Temperature varies with Humidity. It helps in identifying any patterns or trends in the data.
+
+Histograms
+Temperature Histogram
+
+
+Humidity Histogram
+
+
+The histograms show the distribution of Temperature and Humidity values in the dataset.
+
+### Regression Modeling
+Linear Regression (LS)
+We fit a simple linear regression model to predict Temperature using Humidity.
+
+Model Equation: Temperature = β₀ + β₁ * Humidity + ε
+Performance: Evaluate using Mean Squared Error (MSE).
+Visualization: Plotting the regression line over the scatter plot provides insight into the fit of the model.
+Weighted Least Squares (WLS)
+Weighted Least Squares adjusts LS by assigning different weights to data points based on their variance. It can handle heteroscedastic errors (unequal variance across data points).
+
+#### Recursive Least Squares (RLS)
+RLS is beneficial for handling streaming data or situations with dynamically changing data points. It continuously updates the model as new data arrives, making it suitable for real-time applications.
+
+### Conclusion
+This question provides an overview of analyzing the Weather in Szeged 2006 dataset, exploring the relationship between temperature and humidity, and building regression models. For detailed implementation and results, refer to the corresponding code and notebooks.
 
 You can find used dataset for question number 3 in link below.
 ### [Dataset 2](https://www.kaggle.com/datasets/budincsevity/szeged-weather/data)
