@@ -42,35 +42,21 @@ This code allows you to experiment with both ReLU and Sigmoid activation functio
 
 ## Question 2 
 
+### Bearing Fault Classification with Multilayer Perceptron (MLP)
 
-### Enhanced Bearing Fault Classification with Multi-Layer Perceptron
-This project delves into improving fault classification accuracy on the Bearing CWRU dataset. It expands the available fault classes and leverages a Multi-Layer Perceptron (MLP) neural network for robust classification.
+This Python notebook explores the use of Multilayer Perceptrons (MLPs) for classifying bearing faults. It leverages features extracted from vibration data in the CWRU dataset.
 
 ### Key Features:
 
-#### Data Augmentation: 
- The dataset is enriched by incorporating additional fault classes from "X_6@007OR" in the "Fault Data in k,12" page, resulting in a total of four distinct fault categories (including the original two from Mini Project 1).
-#### MLP Network Architecture:
- A versatile MLP network with two or more hidden layers is employed. Each layer comprises perceptron neurons equipped with activation functions (like ReLU) to introduce non-linearity.
-#### Optimized Training Process:
- A meticulously chosen optimizer (e.g., Adam, SGD) guides weight updates during training. Additionally, a suitable loss function (e.g., Cross-entropy) measures the difference between predicted and actual labels, aiding the optimization process.
+- Feature Extraction: The notebook preprocesses vibration time series data, extracting informative features like mean, standard deviation, and root mean square (RMS).
+- Model Comparison: Two MLP models are trained and compared:
+- - Model 1: Utilizes the Adam optimizer and sparse categorical cross-entropy loss.
+- - Model 2: Employs the SGD optimizer and Kullback-Leibler divergence loss.
 
-#### Comprehensive Evaluation:
- The trained model's performance is rigorously assessed on unseen testing data using metrics like accuracy, precision, recall, and F1-score for all fault classes. A confusion matrix provides a visual representation of classification performance, helping identify potential issues.
-
-#### Detailed Analysis:
- The results are thoroughly analyzed, considering factors such as model complexity, optimizer choice, and loss function. This analysis sheds light on potential areas for improvement and furthers our understanding of MLP networks in fault classification tasks.
-
-### Benefits:
-
-Potentially superior fault classification accuracy compared to the baseline model in Mini Project 1.
-Valuable insights into the effectiveness of MLPs for bearing fault diagnosis.
-Guidance for future refinements, including model architecture adjustments, exploration of new optimizers, and data augmentation strategies.
-Further Exploration:
-
-This project encourages experimentation with different network configurations (number of layers, neuron count, activation functions) and optimization algorithms with their hyperparameters. Regularization techniques can also be investigated to enhance model generalization and prevent overfitting.
-
-By incorporating these advancements, this project aims to elevate the performance of bearing fault classification tasks on the CWRU dataset.
+### Generalizability Assessment:
+ K-Fold cross-validation is used to rigorously evaluate the models' ability to generalize to unseen data.
+ 
+This project investigates the effectiveness of different optimizers and loss functions for MLP-based bearing fault classification, providing insights into their performance on real-world data.
 
 ### Result
 
