@@ -84,6 +84,6 @@ This project explores the application of decision trees and random forests for d
  A random forest model is trained with default hyperparameters and evaluated on the test set, allowing for a comparison with decision tree performance.
 
 ### Model of the Decision Tree :
-![alt text](3_17.png) 
+![alt text](3_7.png)
 
 This project offers valuable insights into the impact of various techniques on decision trees and random forests in drug classification tasks. It highlights the importance of data preprocessing and hyperparameter tuning for achieving optimal model performance.
