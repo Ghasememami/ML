@@ -10,7 +10,7 @@ Consist of 4 mini projects and 2 exams
  Instructor: [Dr.Aliyari](https://scholar.google.com/citations?hl=en&user=4tTSHmQAAAAJ)
 
 
-## Acknowledgements
+## 📚 Acknowledgements
 
  - [Mini project 1](https://github.com/Ghasememami/ML/tree/main/MP1)
  - [Mini project 2](https://github.com/Ghasememami/ML/tree/main/MP2)
@@ -21,19 +21,19 @@ Consist of 4 mini projects and 2 exams
 
 
 
-## Mini project 1
+## 📕 Mini project 1
 
 In this section following methods are investigated 
 
 LS, RLS, WLS, SGD, and other linear classification models.
 
 
-## Mini project 2
+## 📗 Mini project 2
 
 In this section following methods are investigated 
 
 Decision trees, Random forests, and MLPs.
-## Mini project 3
+## 📘 Mini project 3
 
 
 In this section following methods are investigated 
@@ -41,11 +41,11 @@ In this section following methods are investigated
 Kinds of SVMs (including a scratch implementation) and autoencoders.
 
 
-## Mini project 4
+## 📙 Mini project 4
 
 In this section following methods are investigated 
 
 Reinforcement learning algorithms and applications.
-## Midterm and Final Exam
+## 📓 Midterm and Final Exam
 
 This section consist of codes that related to exams
