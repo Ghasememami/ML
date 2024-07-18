@@ -28,14 +28,6 @@ In this section following methods are investigated
 LS, RLS, WLS, SGD, and other linear classification models.
 
 
-You can find used dataset for question number 2 in link below.
-### [Dataset 1](https://engineering.case.edu/bearingdatacenter/download-data-file)
-
-You can find used dataset for question number 3 in link below.
-### [Dataset 2](https://www.kaggle.com/datasets/budincsevity/szeged-weather/data)
-
-
-
 ## Mini project 2
 
 In this section following methods are investigated 
