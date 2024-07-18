@@ -49,3 +49,11 @@ Reinforcement learning algorithms and applications.
 ## 📓 Midterm and Final Exam
 
 This section consist of codes that related to exams
+
+## Contribution
+
+If you have any question about each part you would be in touch with me by email in follow 
+
+[Ghasem Emami](mailto:moh.emamimoghaddam@email.kntu.ac.ir)
+
+
