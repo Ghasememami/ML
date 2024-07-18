@@ -20,5 +20,5 @@ This project offers a valuable resource for anyone interested in exploring reinf
 - Evaluation using comprehensive performance metrics.
 - Clear setup instructions for running the project.
 
-<video controls src="250.mp4" title="DDQN-128-250"></video>
-[![Video Thumbnail](![alt text](1.webp))](<video controls src="250-1.mp4" title="Title"></video>)
+
+https://drive.google.com/file/d/1MbUH88UnJnIuEVpdw2NtFyek1QbW7hsm/view?usp=sharing
