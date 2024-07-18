@@ -20,7 +20,8 @@ This project offers a valuable resource for anyone interested in exploring reinf
 - Evaluation using comprehensive performance metrics.
 - Clear setup instructions for running the project.
 
+$ Some Result of this project
 | DDQN | DQN | Mini Batch | Episod number | 
 |---|---|---|---|
-| [video link](https://drive.google.com/file/d/1dVr2bQ1qa7xyLmv3-j-jGpWY1-DPKZJc/view?usp=drive_link )| [Video Link](https://drive.google.com/file/d/1_c18zyhfs1szFo7aqOWKwlgJ3nlm9T3n/view?usp=drive_link) |  128 |  250 | 
+| [Video link](https://drive.google.com/file/d/1dVr2bQ1qa7xyLmv3-j-jGpWY1-DPKZJc/view?usp=drive_link )| [Video Link](https://drive.google.com/file/d/1_c18zyhfs1szFo7aqOWKwlgJ3nlm9T3n/view?usp=drive_link) |  128 |  250 | 
 | [Video Link](https://drive.google.com/file/d/1IVxZ_1JBmxB2ekaJZlBksFGaxhIFaphP/view?usp=drive_link) |  [Video Link](https://drive.google.com/file/d/1tuq2eZ3pUOMae5hNUsL2Tzi27xFghH1v/view?usp=drive_link)| 64 | 100 |
