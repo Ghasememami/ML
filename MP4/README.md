@@ -12,12 +12,12 @@ Getting Started: Detailed instructions on setting up the environment and depende
 
 This project offers a valuable resource for anyone interested in exploring reinforcement learning and its application to complex tasks like Lunar Lander.
 
-Key Features:
+## Key Features:
 
--Implementation of DQN and DDQN algorithms tailored for the Lunar Lander environment.
--Comparative analysis of batch size impact on RL performance.
--2D plot video visualization of agent behavior.
--Evaluation using comprehensive performance metrics.
--Clear setup instructions for running the project.
+- Implementation of DQN and DDQN algorithms tailored for the Lunar Lander environment.
+- Comparative analysis of batch size impact on RL performance.
+- 2D plot video visualization of agent behavior.
+- Evaluation using comprehensive performance metrics.
+- Clear setup instructions for running the project.
 
 
