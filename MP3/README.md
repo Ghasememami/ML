@@ -12,14 +12,12 @@ This project delves into Support Vector Machine (SVM) algorithm exploration on t
 
 This project provides insights into SVM behavior with different kernels and dimensionality reduction, along with code examples (both scikit-learn and scratch implementation).
 
-The IRIS dataset could be found in this 
-### [Dataset ](https://www.kaggle.com/datasets/budincsevity/szeged-weather/data)
-
 ## Result :
 the Scratch Decision Boundries: 
 ![alt text](scratch_decision_boundries.gif)
 
-
+The IRIS dataset could be found in this 
+### [Dataset ](https://www.kaggle.com/datasets/budincsevity/szeged-weather/data)
 
 # Question 3
 
@@ -42,14 +40,14 @@ Furthermore, the project will analyze the model's performance when trained on im
 
 Note: When hyperparameters are not specified in the paper, we will make informed choices based on best practices. The project aims to gain practical experience with the model rather than replicate the exact paper results.
 
-The dataset link could be found in following link 
-### [Dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
 
 ## Result:
 Confusion Matrix
 ![alt text](2_9.png)
 
 
+The dataset link could be found in following link 
+### [Dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
 
 
 
