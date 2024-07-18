@@ -87,3 +87,26 @@ This project explores the application of decision trees and random forests for d
 ![alt text](3_7.png)
 
 This project offers valuable insights into the impact of various techniques on decision trees and random forests in drug classification tasks. It highlights the importance of data preprocessing and hyperparameter tuning for achieving optimal model performance.
+
+## Question 4 
+
+This Jupyter Notebook tackles heart disease prediction using a Naive Bayes classifier. It leverages the Heart Disease Dataset for training and evaluation.
+
+### Key Steps:
+
+### Data Preparation:
+- The notebook loads the dataset.
+- It meticulously preprocesses the data, including shuffling for randomness, splitting into training and testing sets, and normalization for improved model performance.
+
+### Model Training and Evaluation:
+- A Gaussian Naive Bayes model is trained on the prepared data.
+- The model's performance is evaluated using comprehensive metrics:
+  - Accuracy score: Overall correctness of predictions.
+  - Classification report: Detailed breakdown of precision, recall, and F1-score for each class (presence/absence of heart disease).
+  - Confusion matrix: Visual representation of true and false positives/negatives.
+- Example Prediction:
+  - The notebook demonstrates how to make a random prediction using the trained model, providing an illustrative example of its application.
+### Result : 
+  ![alt text](4_9.png)
+  
+This project offers a clear guide to building and evaluating a Naive Bayes classifier for heart disease prediction.
