@@ -1,4 +1,4 @@
-# ML
+# Machine learning 2023
 
 
 Machine Learinig course in KNTU university of technology 
