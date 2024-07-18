@@ -66,6 +66,9 @@ This project investigates the effectiveness of different optimizers and loss fun
 
 ![alt text](2_11.png)
 
+The data set could be find in link below
+### [Dataset](https://engineering.case.edu/bearingdatacenter/download-data-file)
+
 ## Question 3 
 
 ### Drug Classification with Decision Trees and Random Forests
