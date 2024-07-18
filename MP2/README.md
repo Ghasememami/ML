@@ -65,3 +65,25 @@ This project investigates the effectiveness of different optimizers and loss fun
 #### Accuracy :
 
 ![alt text](2_11.png)
+
+## Question 3 
+
+### Drug Classification with Decision Trees and Random Forests
+
+This project explores the application of decision trees and random forests for drug classification using the Drug dataset from Kaggle. It investigates how pre-pruning, post-pruning, undersampling, and hyperparameter tuning can influence the performance and complexity of these models.
+
+### Key Techniques:
+
+- Data Preprocessing:
+ The Drug dataset is cleaned, feature-engineered, and undersampled to address class imbalance and enhance model effectiveness.
+- Decision Tree Training:
+ Decision tree models are trained with different hyperparameters for pre-pruning (regulating tree growth), post-pruning (removing redundant branches), and default settings.
+- Visualization and Evaluation:
+ The decision tree structures are visualized to understand their decision-making processes, and their performance is evaluated using classification reports that include metrics like accuracy, precision, recall, and F1-score.
+- Random Forest Comparison:
+ A random forest model is trained with default hyperparameters and evaluated on the test set, allowing for a comparison with decision tree performance.
+
+### Model of the Decision Tree :
+![alt text](3_17.png) 
+
+This project offers valuable insights into the impact of various techniques on decision trees and random forests in drug classification tasks. It highlights the importance of data preprocessing and hyperparameter tuning for achieving optimal model performance.
