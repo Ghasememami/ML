@@ -20,5 +20,7 @@ This project offers a valuable resource for anyone interested in exploring reinf
 - Evaluation using comprehensive performance metrics.
 - Clear setup instructions for running the project.
 
-
-https://drive.google.com/file/d/1MbUH88UnJnIuEVpdw2NtFyek1QbW7hsm/view?usp=sharing
+| DDQN | DQN | Mini Batch | Episod number | 
+|---|---|---|---|
+| Content 1, Row 1 | 128, Row 1 |  128, Row 1 |  250, Row 1 | 
+| Content 1, Row 2 | Content 2, Row 2 | 64, Row 2 | 100, Row 2 |
