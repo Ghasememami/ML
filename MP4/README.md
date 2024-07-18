@@ -21,3 +21,4 @@ This project offers a valuable resource for anyone interested in exploring reinf
 - Clear setup instructions for running the project.
 
 <video controls src="250.mp4" title="DDQN-128-250"></video>
+[![Video Thumbnail](path/to/thumbnail.jpg)](<video controls src="250-1.mp4" title="Title"></video>)
