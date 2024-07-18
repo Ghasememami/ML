@@ -50,12 +50,12 @@ This Python notebook explores the use of Multilayer Perceptrons (MLPs) for class
 
 - Feature Extraction: The notebook preprocesses vibration time series data, extracting informative features like mean, standard deviation, and root mean square (RMS).
 - Model Comparison: Two MLP models are trained and compared:
-- - Model 1: Utilizes the Adam optimizer and sparse categorical cross-entropy loss.
-- - Model 2: Employs the SGD optimizer and Kullback-Leibler divergence loss.
+  - Model 1: Utilizes the Adam optimizer and sparse categorical cross-entropy loss.
+  - Model 2: Employs the SGD optimizer and Kullback-Leibler divergence loss.
 
 ### Generalizability Assessment:
  K-Fold cross-validation is used to rigorously evaluate the models' ability to generalize to unseen data.
- 
+
 This project investigates the effectiveness of different optimizers and loss functions for MLP-based bearing fault classification, providing insights into their performance on real-world data.
 
 ### Result
